@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuis Cloud Computing — Cloud4Learn</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">☁️ Cloud<span>4Learn</span></a>
+    <button class="nav-toggle" aria-label="Buka menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="courses.html">Kursus</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="contact.html">Kontak & Daftar</a></li>
+      <li><a href="quiz.html" class="active">Kuis</a></li>
+      <li><button id="modeToggle">🌙 Mode Malam</button></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <p class="eyebrow">Uji Pemahamanmu</p>
+    <h1>Kuis Dasar Cloud Computing</h1>
+    <p style="max-width:56ch;margin:10px auto 0">Evaluasi pemahamanmu mengenai konsep dasar Public Cloud, Private Cloud, dan Hybrid Cloud melalui 5 soal pilihan ganda. Setelah menyelesaikan kuis, kamu akan mendapatkan hasil nilai dan pembahasan setiap soal.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="quiz-wrap">
+      <div class="quiz-progress-track">
+        <div class="quiz-progress-bar" id="quizProgressBar"></div>
+      </div>
+      <div class="quiz-body" id="quizBody">
+        <!-- Konten soal/hasil dirender otomatis oleh JavaScript -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper-dim)">
+  <div class="container" style="text-align:center">
+    <h2>Masih ragu jawabannya?</h2>
+    <p style="max-width:52ch;margin:0 auto 20px">Pelajari lagi perbedaan Public, Private, dan Hybrid Cloud di halaman Tentang, atau langsung ambil kelas yang sesuai.</p>
+    <a href="about.html" class="btn btn-primary">Baca Materi</a>
+    <a href="courses.html" class="btn btn-outline" style="color:var(--chalk-green); border-color:var(--chalk-green)">Lihat Kelas</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <h4>☁️ Cloud4Learn</h4>
+      <p>Platform belajar online untuk memahami Public, Private, dan Hybrid Cloud.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="courses.html">Kursus</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="quiz.html">Kuis</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi Kami</h4>
+      <ul>
+        <li><a href="mailto:halo@cloud4learn.id">halo@cloud4learn.id</a></li>
+        <li><a href="tel:+622112345678">(021) 1234-5678</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="current-year"></span> Cloud4Learn. Learn Cloud. Build Your Future.</div>
+</footer>
+
+<a href="#" class="back-to-top" id="backToTop">↑</a>
+<script src="script.js"></script>
+</body>
+</html>

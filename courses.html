@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kursus Cloud Computing — Cloud4Learn</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">☁️ Cloud<span>4Learn</span></a>
+    <button class="nav-toggle" aria-label="Buka menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="courses.html" class="active">Kursus</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="contact.html">Kontak & Daftar</a></li>
+      <li><a href="quiz.html">Kuis</a></li>
+      <li><button id="modeToggle">🌙 Mode Malam</button></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <p class="eyebrow">Katalog Lengkap</p>
+    <h1>Kursus &amp; Jadwal Kelas Cloud Computing</h1>
+    <p style="max-width:56ch;margin:10px auto 0">Pilih kelas sesuai model cloud yang ingin kamu kuasai — Public, Private, atau Hybrid.</p>
+  </div>
+</div>
+
+<!-- ===================== TABEL JADWAL ===================== -->
+<section>
+  <div class="container">
+    <h2>Jadwal Kelas Bulan Ini</h2>
+    <p>Berikut jadwal kelas cloud computing yang <u>dibuka bulan ini</u>. Kelas dengan status
+      <span class="badge full">Penuh</span> akan dibuka kembali bulan depan.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Kode</th>
+            <th>Nama Kelas</th>
+            <th>Model Cloud</th>
+            <th>Mentor</th>
+            <th>Jadwal</th>
+            <th>Durasi</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+         <td>KLS-101</td>
+            <td>AWS Cloud Practitioner</td>
+            <td>Public</td>
+            <td>Ari Alifiandi</td>
+            <td>Senin &amp; Rabu, 19.00 WIB</td>
+            <td>4 Minggu</td>
+            <td><span class="badge">Tersedia</span></td>
+          </tr>
+          <tr>
+            <td>KLS-118</td>
+            <td>Azure Fundamentals (AZ-900)</td>
+            <td>Public</td>
+            <td>Jeni Ayu Lestari</td>
+            <td>Selasa &amp; Kamis, 19.00 WIB</td>
+            <td>4 Minggu</td>
+            <td><span class="badge">Tersedia</span></td>
+          </tr>
+          <tr>
+            <td>KLS-127</td>
+            <td>GCP Associate Cloud Engineer</td>
+            <td>Public</td>
+            <td>Reikhal Akbar Damanik</td>
+            <td>Sabtu, 09.00 WIB</td>
+            <td>3 Minggu</td>
+            <td><span class="badge full">Penuh</span></td>
+          </tr>
+          <tr>
+            <td>KLS-205</td>
+            <td>Private Cloud dengan VMware</td>
+            <td>Private</td>
+            <td>Nabil Maulidan</td>
+            <td>Jumat, 19.00 WIB</td>
+            <td>5 Minggu</td>
+            <td><span class="badge">Tersedia</span></td>
+          </tr>
+          <tr>
+            <td>KLS-212</td>
+            <td>OpenStack untuk Private Cloud</td>
+            <td>Private</td>
+            <td>Ari Alifiandi</td>
+            <td>Minggu, 10.00 WIB</td>
+            <td>4 Minggu</td>
+            <td><span class="badge">Tersedia</span></td>
+          </tr>
+          <tr>
+            <td>KLS-310</td>
+            <td>Hybrid Cloud Architecture</td>
+            <td>Hybrid</td>
+            <td>Reikhal Akbar Damanik</td>
+            <td>Senin &amp; Kamis, 20.00 WIB</td>
+            <td>5 Minggu</td>
+            <td><span class="badge">Tersedia</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== DETAIL KELAS + SILABUS (LIST + AUDIO) ===================== -->
+<section style="background:var(--paper-dim)">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">KLS-101</p>
+      <h2>AWS Cloud Practitioner</h2>
+      <p>Kelas ini dirancang untuk pemula mutlak yang ingin memahami dasar
+        <strong>Amazon Web Services (AWS)</strong>, penyedia public cloud terbesar di dunia.
+        Kamu akan belajar layanan inti seperti komputasi, penyimpanan, dan jaringan —
+        seluruhnya lewat studi kasus nyata, bukan sekadar teori.</p>
+
+      <h3>Silabus Singkat</h3>
+      <ol class="ordered-list">
+        <li>Pengenalan konsep dasar cloud computing dan model Public Cloud</li>
+        <li>Layanan inti AWS: EC2 (komputasi), S3 (penyimpanan), VPC (jaringan)</li>
+        <li>Konsep keamanan dan manajemen biaya di public cloud</li>
+        <li>Proyek akhir: merancang arsitektur sederhana di AWS</li>
+      </ol>
+
+      <h3>Contoh Materi Audio</h3>
+      <p>Dengarkan cuplikan penjelasan mentor tentang perbedaan model layanan cloud (IaaS, PaaS, SaaS):</p>
+      <div class="audio-block">
+        🎧
+        <audio controls>
+          <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+          Browser Anda tidak mendukung tag audio.
+        </audio>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=700&q=80" alt="Ilustrasi layanan komputasi awan">
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section style="text-align:center">
+  <div class="container">
+    <h2>Sudah menemukan kelas yang cocok?</h2>
+    <p>Isi formulir pendaftaran, atau uji dulu pemahamanmu lewat kuis singkat.</p>
+    <a href="contact.html" class="btn btn-primary">Daftar Kelas</a>
+    <a href="quiz.html" class="btn btn-outline" style="color:var(--chalk-green); border-color:var(--chalk-green)">Coba Kuis</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <h4>☁️ Cloud4Learn</h4>
+      <p>Platform belajar online untuk memahami Public, Private, dan Hybrid Cloud.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="courses.html">Kursus</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="quiz.html">Kuis</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi Kami</h4>
+      <ul>
+        <li><a href="mailto:info@cloud4learn.id">info@cloud4learn.id</a></li>
+        <li><a href="tel:+622112345678">(021) 1234-5678</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="current-year"></span> Cloud4Learn. Dibuat untuk tugas mata kuliah Pemrograman Web.</div>
+</footer>
+
+<a href="#" class="back-to-top" id="backToTop">↑</a>
+<script src="script.js"></script>
+</body>
+</html>

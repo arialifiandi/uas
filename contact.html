@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak & Pendaftaran — EduLearn</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">☁️ Edu<span>Learn</span></a>
+    <button class="nav-toggle" aria-label="Buka menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="courses.html">Kursus</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="contact.html" class="active">Kontak & Daftar</a></li>
+      <li><a href="quiz.html">Kuis</a></li>
+      <li><button id="modeToggle">🌙 Mode Malam</button></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="container">
+    <p class="eyebrow">Mulai Sekarang</p>
+    <h1>Pendaftaran &amp; Konsultasi Cloud</h1>
+    <p style="max-width:56ch;margin:10px auto 0">Bingung mau pilih Public, Private, atau Hybrid Cloud? Isi formulir ini, tim kami bantu arahkan.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="form-wrap">
+      <div id="formSuccess"></div>
+
+      <form id="registerForm" novalidate>
+        <div class="form-row">
+          <label for="fullname">Nama Lengkap *</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Contoh: Andi Wijaya">
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Alamat Email *</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com">
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Nomor WhatsApp *</label>
+          <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxxxx">
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="course">Pilih Kelas *</label>
+          <select id="course" name="course">
+            <option value="">— Pilih salah satu —</option>
+            <option value="aws">KLS-101 · AWS Cloud Practitioner</option>
+            <option value="azure">KLS-118 · Azure Fundamentals (AZ-900)</option>
+            <option value="gcp">KLS-127 · GCP Associate Cloud Engineer</option>
+            <option value="vmware">KLS-205 · Private Cloud dengan VMware</option>
+            <option value="openstack">KLS-212 · OpenStack untuk Private Cloud</option>
+            <option value="hybrid">KLS-310 · Hybrid Cloud Architecture</option>
+          </select>
+          <div class="error-msg"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="model">Model Cloud yang Paling Diminati</label>
+          <div class="checks">
+            <label><input type="radio" name="model" value="public"> Public Cloud</label>
+            <label><input type="radio" name="model" value="private"> Private Cloud</label>
+            <label><input type="radio" name="model" value="hybrid" checked> Hybrid Cloud</label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="minat">Kebutuhan Tambahan</label>
+          <div class="checks">
+            <label><input type="checkbox" name="minat" value="sertifikat"> Butuh sertifikat resmi</label>
+            <label><input type="checkbox" name="minat" value="konsultasi"> Ingin sesi konsultasi arsitektur privat</label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Pesan / Pertanyaan (opsional)</label>
+          <textarea id="message" name="message" rows="4" placeholder="Contoh: perusahaan saya masih bingung pilih Private atau Hybrid Cloud..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%">Kirim Pendaftaran</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INFO KONTAK ===================== -->
+<section style="background:var(--paper-dim)">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Butuh Bantuan?</p>
+      <h2>Hubungi tim kami langsung</h2>
+      <p>Punya pertanyaan seputar model cloud yang cocok untuk kebutuhanmu? Tim admisi
+        kami siap membantu melalui beberapa kanal berikut:</p>
+      <ul class="styled-list">
+        <li>Email: <a href="mailto:halo@edulearn.id">halo@edulearn.id</a></li>
+        <li>Telepon: <a href="tel:+622112345678">(021) 1234-5678</a></li>
+        <li>Jam layanan: Senin–Jumat, 09.00–18.00 WIB</li>
+        <li>Kantor: Jl. Pendidikan No. 10, Jakarta Selatan</li>
+      </ul>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=700&q=80" alt="Kantor pusat EduLearn">
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <h4>☁️ EduLearn</h4>
+      <p>Platform belajar online untuk memahami Public, Private, dan Hybrid Cloud.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="courses.html">Kursus</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="quiz.html">Kuis</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi Kami</h4>
+      <ul>
+        <li><a href="mailto:halo@edulearn.id">halo@edulearn.id</a></li>
+        <li><a href="tel:+622112345678">(021) 1234-5678</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="current-year"></span> EduLearn. Dibuat untuk tugas mata kuliah Pemrograman Web.</div>
+</footer>
+
+<a href="#" class="back-to-top" id="backToTop">↑</a>
+<script src="script.js"></script>
+</body>
+</html>

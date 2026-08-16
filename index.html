@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beranda — Cloud4Learn</title>
+<meta name="description" content="Cloud4Learn adalah platform kursus online untuk belajar Public Cloud, Private Cloud, dan Hybrid Cloud bersama mentor berpengalaman.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="brand">☁️ Cloud<span>4Learn</span></a>
+    <button class="nav-toggle" aria-label="Buka menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Beranda</a></li>
+      <li><a href="courses.html">Kursus</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="contact.html">Kontak & Daftar</a></li>
+      <li><a href="quiz.html">Kuis</a></li>
+      <li><button id="modeToggle">🌙 Mode Malam</button></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="container">
+    <div>
+      <p class="eyebrow"></p>
+      <h1>Pahami dunia
+        <span class="chalk-underline"><em>Cloud</em></span>
+        — Public, Private, dan Hybrid.
+      </h1>
+      <p><strong>Cloud4Learn</strong> membantu kamu memahami <strong>Public Cloud, Private Cloud, dan Hybrid Cloud</strong>
+        lewat kelas video, studi kasus nyata, dan mentor praktisi industri. Cocok untuk pemula
+        yang baru mengenal dunia infrastruktur cloud.</p>
+      <a href="courses.html" class="btn btn-primary">Lihat Semua Kursus</a>
+      <a href="#tiga-model" class="btn btn-outline">Kenali 3 Model Cloud</a>
+    </div>
+    <div class="hero-card">
+      <iframe 
+        width="100%" 
+        height="315" 
+        src="https://www.youtube.com/embed/3WIJ4axzFlU" 
+        title="Public Cloud vs Private Cloud vs Hybrid Cloud" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen
+        style="border-radius: 3px; margin-bottom: 10px;">
+      </iframe>
+      <p class="cap">▶ Video pengantar: "Public Cloud vs Private Cloud vs Hybrid Cloud" (3:28)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== STATISTIK ===================== -->
+<section>
+  <div class="container">
+    <div class="stats">
+      <div><div class="num" data-target="1000" data-suffix="+">0</div><div class="lbl">SISWA AKTIF</div></div>
+      <div><div class="num" data-target="18">0</div><div class="lbl">KELAS CLOUD</div></div>
+      <div><div class="num" data-target="94" data-suffix="%">0</div><div class="lbl"> TINGKAT KELULUSAN</div></div>
+      <div><div class="num" data-target="22">0</div><div class="lbl">MENTOR PRAKTISI</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3 MODEL CLOUD ===================== -->
+<section id="tiga-model" style="background:var(--paper-dim)">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Dasar-Dasar Cloud</p>
+      <h2>Tiga Model Cloud yang Wajib Kamu Pahami</h2>
+    </div>
+    <div class="card-grid">
+
+      <article class="index-card">
+        <span class="stamp">POPULER</span>
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&q=80" alt="Ilustrasi jaringan publik global">
+        <div class="meta">MODEL 01 · PUBLIC CLOUD</div>
+        <h3>Public Cloud</h3>
+        <p>Sumber daya komputasi disediakan oleh pihak ketiga (contoh: AWS, Azure, GCP) dan dapat diakses banyak pengguna sekaligus lewat internet. Biaya awal rendah, skalabilitas tinggi.</p>
+        <a href="about.html">Pelajari Lebih Lanjut →</a>
+      </article>
+
+      <article class="index-card">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&q=80" alt="Ruang server eksklusif">
+        <div class="meta">MODEL 02 · PRIVATE CLOUD</div>
+        <h3>Private Cloud</h3>
+        <p>Infrastruktur cloud yang dimiliki dan digunakan eksklusif oleh satu organisasi. Kontrol dan keamanan lebih tinggi, cocok untuk data sensitif seperti perbankan.</p>
+        <a href="about.html">Pelajari Lebih Lanjut →</a>
+      </article>
+
+      <article class="index-card">
+        <span class="stamp">BARU</span>
+        <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=500&q=80" alt="Aliran data abstrak menyatukan dua sistem">
+        <div class="meta">MODEL 03 · HYBRID CLOUD</div>
+        <h3>Hybrid Cloud</h3>
+        <p>Menggabungkan Public dan Private Cloud, sehingga beban kerja bisa dipindah sesuai kebutuhan keamanan, biaya, dan performa secara fleksibel.</p>
+        <a href="about.html">Pelajari Lebih Lanjut →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FITUR (LIST) ===================== -->
+<section>
+  <div class="container two-col">
+    <div>
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=700&q=80" alt="Siswa sedang fokus belajar kursus online di laptop">
+    </div>
+    <div>
+      <p class="eyebrow">Kenapa Belajar di Cloud4Learn</p>
+      <h2>Dari Teori hingga Implementasi</h2>
+      <p>Setiap kelas dirancang dengan <mark>studi kasus nyata dari industri</mark>, sehingga
+        kamu tidak hanya paham teori tapi juga tahu bagaimana Public, Private, dan Hybrid Cloud
+        diterapkan di dunia kerja.</p>
+      <ul class="styled-list">
+        <li>Video pembelajaran berkualitas HD, bisa diputar ulang kapan saja</li>
+        <li>Studi kasus arsitektur cloud dari perusahaan nyata</li>
+        <li>Kuis interaktif untuk menguji pemahaman setiap topik</li>
+        <li>Sertifikat kelulusan resmi setelah menyelesaikan kelas</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== KURSUS UNGGULAN (KARTU) ===================== -->
+<section style="background:var(--paper-dim)">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Katalog Kelas</p>
+      <h2>Kursus cloud paling banyak diminati</h2>
+    </div>
+    <div class="card-grid">
+
+      <article class="index-card">
+        <span class="stamp">POPULER</span>
+        <img src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=500&q=80" alt="Dashboard Amazon Web Services">
+        <div class="meta">KLS-101 · PUBLIC CLOUD · 6 MINGGU</div>
+        <h3>AWS Cloud Practitioner</h3>
+        <p>Pengenalan layanan inti Amazon Web Services untuk pemula yang ingin memulai karier di public cloud.</p>
+        <a href="courses.html">Lihat Detail →</a>
+      </article>
+
+      <article class="index-card">
+        <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?w=500&q=80" alt="Ruang server on-premise">
+        <div class="meta">KLS-205 · PRIVATE CLOUD · 5 MINGGU</div>
+        <h3>Private Cloud dengan VMware</h3>
+        <p>Belajar membangun dan mengelola infrastruktur private cloud menggunakan platform virtualisasi VMware.</p>
+        <a href="courses.html">Lihat Detail →</a>
+      </article>
+
+      <article class="index-card">
+        <span class="stamp">BARU</span>
+        <img src="https://www.xlsmart.co.id/bisnis/_next/image/?url=https%3A%2F%2Fbusiness-static.xlsmart.co.id%2Fimages%2Fpost%2FCsHTZsUqI2mrxmHgN3Qe.jpg&w=1920&q=75" alt="Arsitektur jaringan hybrid cloud">
+        <div class="meta">KLS-310 · HYBRID CLOUD · 7 MINGGU</div>
+        <h3>Hybrid Cloud Architecture</h3>
+        <p>Strategi merancang arsitektur yang menggabungkan infrastruktur on-premise dan layanan cloud publik.</p>
+        <a href="courses.html">Lihat Detail →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONI (JS SLIDER) ===================== -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Kata Mereka</p>
+      <h2>Cerita dari alumni Cloud4Learn</h2>
+    </div>
+    <div class="testi-wrap">
+      <div class="testi-slide active">
+        <p>“Setelah ambil kelas AWS Cloud Practitioner, saya jadi paham cara kerja layanan Public Cloud AWS dari nol.”</p>
+        <p class="cap" style="font-family:var(--font-mono); font-size:.8rem; color:var(--ink-soft)">— Esty Rismya, Kelas AWS Cloud Practitioner</p>
+      </div>
+      <div class="testi-slide">
+        <p>“Materi Private Cloud dengan VMware sangat aplikatif, langsung saya terapkan di kantor.”</p>
+        <p class="cap" style="font-family:var(--font-mono); font-size:.8rem; color:var(--ink-soft)">— Jul, Kelas Private Cloud VMware</p>
+      </div>
+      <div class="testi-slide">
+        <p>“Konsep Hybrid Cloud yang tadinya membingungkan, sekarang jadi masuk akal berkat studi kasusnya.”</p>
+        <p class="cap" style="font-family:var(--font-mono); font-size:.8rem; color:var(--ink-soft)">— Wira, Kelas Hybrid Cloud Architecture</p>
+      </div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ (ACCORDION) ===================== -->
+<section style="background:var(--paper-dim)">
+  <div class="container" style="max-width:760px">
+    <div class="section-head">
+      <p class="eyebrow">Pertanyaan Umum</p>
+      <h2>FAQ Seputar Cloud Computing</h2>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-trigger" aria-expanded="false">
+        Apa bedanya Public Cloud dan Private Cloud? <span class="icon">+</span>
+      </button>
+      <div class="accordion-panel"><p>Public Cloud digunakan bersama banyak pelanggan lewat penyedia pihak ketiga, sedangkan Private Cloud infrastrukturnya eksklusif untuk satu organisasi dengan kontrol lebih tinggi.</p></div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-trigger" aria-expanded="false">
+        Kapan sebaiknya menggunakan Hybrid Cloud? <span class="icon">+</span>
+      </button>
+      <div class="accordion-panel"><p>Hybrid Cloud cocok saat organisasi butuh fleksibilitas Public Cloud untuk beban kerja umum, namun tetap ingin menyimpan data sensitif di Private Cloud.</p></div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-trigger" aria-expanded="false">
+        Apakah saya perlu pengalaman IT sebelumnya? <span class="icon">+</span>
+      </button>
+      <div class="accordion-panel"><p>Tidak. Kelas dasar kami dirancang untuk pemula, dan setiap topik dijelaskan bertahap dari konsep paling sederhana.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section>
+  <div class="container" style="text-align:center">
+    <h2>Sudah siap uji pemahamanmu?</h2>
+    <p style="max-width:52ch;margin:0 auto 20px">Coba kuis singkat tentang Public, Private, dan Hybrid Cloud sebelum mendaftar kelas.</p>
+    <a href="quiz.html" class="btn btn-primary">Mulai Kuis</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>
+      <h4>☁️ Cloud4Learn</h4>
+      <p>Platform belajar online untuk memahami Public, Private, dan Hybrid Cloud.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="courses.html">Kursus</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="quiz.html">Kuis</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hubungi Kami</h4>
+      <ul>
+        <li><a href="mailto:info@cloud4learn.id">info@cloud4learn.id</a></li>
+        <li><a href="tel:+622112345678">(021) 1234-5678</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span class="current-year"></span> Cloud4Learn. Learn Cloud. Build Your Future.</div>
+</footer>
+
+<a href="#" class="back-to-top" id="backToTop">↑</a>
+
+<script src="script.js"></script>
+</body>
+</html>
